@@ -43,7 +43,7 @@ $on-laptop:        800px;
 
 @font-face {
   font-family: Planetside2;
-  src: url(../../assets/fonts/planetside2-webfont.woff);
+  src: url(../assets/fonts/planetside2-webfont.woff);
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -54,7 +54,7 @@ $on-laptop:        800px;
 ;
 
 html {
-  background-image: url('../../assets/img/background.png');
+  background-image: url('../assets/img/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
