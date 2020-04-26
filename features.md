@@ -5,12 +5,32 @@ permalink: /features/
 index: 100
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## View character status and statistics
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/profile.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/friends.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/stats.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/killboard.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/weapons_killed_by.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/weapons_stas.jpg">
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Access server status and population
+
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/servers.jpg">
+
+## View outfit information and members
+
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/outfit.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/members.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/online.jpg">
+
+## Pin multiple characters or outfits for quick access
+
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/outfits.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/profiles.jpg">
+
+## Quick access to the Planetside 2 community 
+
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/twitter.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/reddit_ps2.jpg">
+<img class="screenshot" src="{{ site.baseurl }}/assets/img/screenshots/half/reddit_ps2ps4.jpg">

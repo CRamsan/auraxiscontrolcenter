@@ -63,6 +63,10 @@ html {
 
 .container {
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(57,115,101, 0.75) 99%, rgba(0,255,171,0.75) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(27,55,51, 0.95) 99%, rgba(0,255,171,0.75) 100%);
   padding: 18px;
+}
+
+.screenshot {
+  width:200px;
 }
