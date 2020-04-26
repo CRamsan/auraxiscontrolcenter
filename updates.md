@@ -17,7 +17,7 @@ index: 500
 <ul>
 {% endif %}
 
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 
 {% if forloop.last %}
 </ul>
