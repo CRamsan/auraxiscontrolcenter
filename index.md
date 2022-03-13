@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img src="{{ site.baseurl }}/assets/img/promo/full-featured.png"/>
+<img src="{{ site.baseurl }}/public/img/promo/full-featured.png"/>
 
 The Auraxis Control Center is your app for quick access to your Planetside2 information. With this app you will be able to quickly access information about the servers, your outfit, your personal stats and your friend's as well. It also includes quick links to some social information such as Twitter and the Planetside2 subreddit.
 

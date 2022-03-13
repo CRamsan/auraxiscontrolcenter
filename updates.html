@@ -2,7 +2,7 @@
 title: Updates
 layout: page
 permalink: /updates/   
-index: 500
+index: 700
 ---
 
 {% for post in site.posts  %}
@@ -17,8 +17,10 @@ index: 500
     <ul>
   {% endif %}
 
-  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-
+  <h3>
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  </h3>
+  
   {% if forloop.last %}
     </ul>
   {% else %}

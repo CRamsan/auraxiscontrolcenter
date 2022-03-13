@@ -1,0 +1,112 @@
+body {
+  min-height: 600px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerColumn {
+  padding: 10px;
+	width: 100%;
+	max-width: 380px;
+  text-align: center;
+}
+
+.pagesLink {
+  display: inline;
+  padding: 10px;
+  float: right;
+  margin: 0px;
+}
+
+#container {
+  margin: 50px 10px;
+}
+
+#content {
+  max-width: 900px;
+  margin: auto;
+}
+
+#content img {
+  max-width:100%;
+  height:auto;
+}
+
+article {
+  padding: 20px;
+}
+
+.post {
+   word-wrap: break-word;
+}
+
+.divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapToContent {
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.flexContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.embeddedYoutube {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.embeddedYoutube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.highlight {
+  overflow: auto;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footerColumn {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+	width: 100%;
+	max-width: 400px;
+}
+
+.badge {
+  max-height: 100px;
+}
+
+
+.socialBadge{
+  max-height: 24px;
+}

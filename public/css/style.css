@@ -1,0 +1,41 @@
+@font-face {
+  font-family: baseFont;
+  src: url(/auraxiscontrolcenter-site/public/fonts/planetside2-webfont.woff);
+}
+
+html {
+  font-family: baseFont;
+  background-color: black;
+  color: azure;
+}
+
+a {
+    color: inherit;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+article {
+  background-color: #00403d99;
+  clip-path: polygon(0 50px, 50px 0, 100% 0%, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0% 100%);
+  border-style: ridge;
+  border-color: #42af95;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
+}
+
+footer {
+  border-top: 1px solid lightgrey;
+}
+
+.footerColumn h1 {
+  font-size: 22px;
+}
+
+.footerColumn p {
+  font-size: 14px;
+}

@@ -1,36 +1,28 @@
-<footer class="site-footer">
+<div class="footerColumn">
+  <ul>
+    <li>{{ site.title }}</li>
+    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  </ul>
+</div>
 
-  <div class="wrapper container ps2text">
+<div class="footerColumn">
+  <ul>
+    {% if site.github_username %}
+    <li>
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+    {% if site.twitter_username %}
+    <li>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    {% endif %}
+  </ul>
+</div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <a href='https://play.google.com/store/apps/details?id=com.cesarandres.ps2link&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' class="badge" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+<div class="footerColumn">
+  <a href='https://play.google.com/store/apps/details?id=com.cesarandres.ps2link&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+    <img alt='Get it on Google Play' class="badge" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+  </a>
+</div>

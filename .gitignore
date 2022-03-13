@@ -8,3 +8,4 @@ _data/post_queue.json
 .jekyll-cache/
 scripts/res/
 scripts/__pycache__/
+Gemfile.lock
